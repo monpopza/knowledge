@@ -123,14 +123,20 @@ i  Writing gitignore file to .gitignore...
 +  Firebase initialization complete!
 ```
 ## Copy Edit File to Vue Folder
-``` ( Copy Text ) .gitignore (Firebase) >> .gitignore (Project) ```
+``` 
+( Copy Text ) .gitignore (Firebase) >> .gitignore (Project) 
+```
 > Use a Notepad++ to compare a .gitignore both file. if not same you copy it!
 
-``` ( Copy Files ) All File (Firebase, เว้น .gitignore) > Project ```
+``` 
+( Copy Files ) All File (Firebase, เว้น .gitignore) > Project 
+```
 > Finish
 
 ## Back to Vue.JS version 3.0 to run test
 https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md#make-your-project-runable
 
 ## Deploy to Firebase
-``` firebase deploy --only hosting  ```
+``` 
+firebase deploy --only hosting  
+```
