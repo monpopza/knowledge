@@ -38,6 +38,10 @@ Done. Now run:
   npm run dev
 
 ```
+
+## Go to Next Step Firebase Station
+- https://github.com/monpopza/knowledge/blob/main/Firebase.md
+
 > monpopza is a fakename project you can use other name
 ## Make your project runable
 ```
@@ -45,6 +49,3 @@ cd monpopza
 npm install
 npm run dev
 ```
-
-# Go to Next Step Firebase Station
-- https://github.com/monpopza/knowledge/blob/main/Firebase.md
