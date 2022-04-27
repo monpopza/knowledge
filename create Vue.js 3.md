@@ -3,7 +3,7 @@
 ## Document 
 - Vue.js (https://vuejs.org/guide/quick-start.html)
 
-## How to install 
+## setup Vue.js with npm
 > Use a terminal at your directory that create project
 ```
 npm init vue@latest
@@ -36,4 +36,11 @@ Done. Now run:
   npm install
   npm run dev
 
+```
+> monpopza is a fakename project you can use other name
+## Make your project runable
+```
+cd monpopza
+npm install
+npm run dev
 ```
