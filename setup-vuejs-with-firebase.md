@@ -1,3 +1,7 @@
+# Update Vue.JS version 2022
+- https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md
+# Update Firebase Setup 2022
+- https://github.com/monpopza/knowledge/blob/main/Firebase.md
 # Setup vueJS, Firebase and Bootstrapvue 
 > This Document make for 🦖 
 ## All Document
