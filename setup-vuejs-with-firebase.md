@@ -54,7 +54,7 @@ npm install -g firebase-tools firebase init
 ```
 ### Setup Git
 ```
-git commit -m "Add existing file"
+git commit -m "Add  existing file"
 git push origin master
 ```
 
