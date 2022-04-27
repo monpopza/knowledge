@@ -49,3 +49,6 @@ cd monpopza
 npm install
 npm run dev
 ```
+
+## Deploy to Firebase
+- https://github.com/monpopza/knowledge/blob/main/Firebase.md#deploy-to-firebase
