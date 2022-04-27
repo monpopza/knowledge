@@ -1,5 +1,6 @@
 # Install Vue.js version 3.0
-> update detail all from (https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md) 
+> update detail all from 
+> (https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md) 
 ## Document 
 - Vue.js (https://vuejs.org/guide/quick-start.html)
 
@@ -45,5 +46,5 @@ npm install
 npm run dev
 ```
 
-Go to Next Step Firebase Station
-https://github.com/monpopza/knowledge/blob/main/Firebase.md
+- Go to Next Step Firebase Station
+- https://github.com/monpopza/knowledge/blob/main/Firebase.md
