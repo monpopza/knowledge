@@ -44,3 +44,6 @@ cd monpopza
 npm install
 npm run dev
 ```
+
+Go to Next Step Firebase Station
+https://github.com/monpopza/knowledge/blob/main/Firebase.md
