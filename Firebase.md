@@ -2,7 +2,7 @@
 - https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md
 # Create Firebase and Setup a Firbase Project file
 ## Docunment 
-> DUMDUMDUMDUMDUMD
+> https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md
 
 ## Setting in Windows
 > Use Terminal as Administrator
