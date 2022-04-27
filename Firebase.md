@@ -123,8 +123,8 @@ i  Writing gitignore file to .gitignore...
 +  Firebase initialization complete!
 ```
 ## Copy Edit File to Vue Folder
-> Additional
-```
-( Copy Text ) .gitignore (Firebase) >> .gitignore (Project)
-( Copy Files ) All File (Firebase, เว้น .gitignore) > Project
-```
+``` ( Copy Text ) .gitignore (Firebase) >> .gitignore (Project) ```
+> Use a Notepad++ to compare a .gitignore both file. if not same you copy it!
+
+``` ( Copy Files ) All File (Firebase, เว้น .gitignore) > Project ```
+> Finish
