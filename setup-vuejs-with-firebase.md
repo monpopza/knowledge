@@ -1,22 +1,20 @@
-# Update version 2022
-## Vue.JS
-- https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md
-## Firebase 2022
-- https://github.com/monpopza/knowledge/blob/main/Firebase.md
+# Update version 062022
+## [Vue.JS Link](https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md)
+## [Firebase Link](https://github.com/monpopza/knowledge/blob/main/Firebase.md)
 
 # Setup vueJS, Firebase and Bootstrapvue 2020
 > This Document make for 🦖 
 ## All Document
-- Node.JS (https://nodejs.org/en/)
-- Git-CSM https://git-scm.com 
-- Code Editor (WebStorm, Etc)
-- Browser (Chrome/Edge/Safari)
-- Notepad++ (https://notepad-plus-plus.org/downloads/)
-- (https://getbootstrap.com)
-- (https://popper.js.org)
-- (https://portal-vue.linusb.org)
-- (https://bootstrap-vue.org)
-- (https://bootstrap-vue.js.org/docs/)
+- [Node.JS](https://nodejs.org/en/)
+- [Git-CSM](https://git-scm.com)
+- Code Editor (WebStorm, VSCode)
+- Browser (Chromium base/Firefox/Safari)
+- [Notepad++](https://notepad-plus-plus.org/downloads/)
+- [Bootstrao](https://getbootstrap.com)
+- [Popper-JS](https://popper.js.org)
+- [PortalVue](https://portal-vue.linusb.org)
+- [Bootstrap-vue](https://bootstrap-vue.org)
+
 - ### MacOS
    - How to Install NodeJS and NPM on MacOS (https://gist.github.com/nerdenough/d288f2e732637f55f9858070c6b8b15b)
 - ### Other
@@ -28,6 +26,8 @@
 - Download NodeJS and install with Link: https://nodejs.org/en/
 - Download Git and Install with Link: https://git-scm.com
 ### For MacOS
+#### NEW!!!✨😤 [Node.JS](https://nodejs.org/en/)
+
 #### Install Homebrew
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
