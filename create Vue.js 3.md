@@ -1,8 +1,7 @@
 # Install Vue.js version 3.0
-- update detail all from 
-- https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md
+- update detail all from [Link](https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md)
 ## Document 
-- Vue.js https://vuejs.org/guide/quick-start.html
+- [Vue.js](https://vuejs.org/guide/quick-start.html)
 
 ## setup Vue.js with npm
 > Use a terminal at your directory that create project
@@ -40,8 +39,7 @@ Done. Now run:
 ```
 > monpopza is a fakename project you can use other name
 
-## Go to Next Step Firebase Station
-- https://github.com/monpopza/knowledge/blob/main/Firebase.md
+## [Go to Next Step Firebase Station](https://github.com/monpopza/knowledge/blob/main/Firebase.md)
 
 ## Make your project runable
 ```
@@ -50,5 +48,4 @@ npm install
 npm run dev
 ```
 
-## Deploy to Firebase
-- https://github.com/monpopza/knowledge/blob/main/Firebase.md#deploy-to-firebase
+## [Deploy to Firebase](https://github.com/monpopza/knowledge/blob/main/Firebase.md#deploy-to-firebase)
