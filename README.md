@@ -8,6 +8,6 @@
 - [Init Firebase](https://github.com/monpopza/knowledge/blob/main/Firebase.md)
 - [Lecture Javascript](https://github.com/monpopza/knowledge/blob/main/Javascript_Basic.md)
 
-# Router Knowledge
+# RouterOS Knowledge
 > 2022 
 - [SSTP VPN with Mikrotik RouterOS](https://github.com/monpopza/knowledge/blob/main/mikrotik_sstp_doc.md)
