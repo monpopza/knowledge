@@ -1,8 +1,6 @@
-- Back to Vue.JS Version 3
-- https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md
+- [Back to Vue.JS Version 3](https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md)
 # Create Firebase and Setup a Firbase Project file
-## Docunment 
-> https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md
+## [Docunment](https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md)
 
 ## Setting in Windows
 > Use Terminal as Administrator
@@ -133,8 +131,7 @@ i  Writing gitignore file to .gitignore...
 ```
 > Finish
 
-## Back to Vue.JS version 3.0 to run test
-https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md#make-your-project-runable
+## [Back to Vue.JS version 3.0 to run test](https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md#make-your-project-runable)
 
 ## Deploy to Firebase
 ``` 
