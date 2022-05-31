@@ -104,6 +104,51 @@ console.log(TRU);
 ```
 ##### OBJECT       : {data:"string",age:"number"}
 ##### ARRAY        : ["APPLE","PINEAPPLE","APPLEPINE"]
+- change from (many variable)
+```
+let num1 = 1; num2 = 2; num3 = 3;
+console.log(num1,num2,num3)
+```
+> result
+```
+123
+```
+- to one variable
+```
+let num = Array(1,2,3);
+console.log(num);
+```
+> result
+```
+(3) [1, 2, 3]
+0. 1
+1. 2
+2. 3
+```
+- how to use array
+```
+if i want to use 3 
+console.log(num[2])
+of i want to use 1
+console.log(num[0])
+```
+if string 
+```
+let color = Array("red","blue","yellow","white");
+console.log(color);
+```
+> result
+```
+(4) [red,blue,yellow,white]
+0. red
+1. blue
+2. yellow
+3. white
+```
+> hot to change value in array[]
+```
+color[0] = "green";
+```
 ##### TYPEOF : CHECK DATA TYPE
 ##### NULL : NO DATA | DATA is NULL
 ##### UNDEFINED : no value/data in variable
@@ -130,16 +175,64 @@ String
 String
 ```
 ##### How to Change
-- INTIGER
+- String to INTIGER
 ```
 a = parseInt('a');
 ```
-- FLOAT
+- String to FLOAT
 ``` 
 b = parsaFloat('b');
 ```
-##### Change INT to STRING
+##### Change int/float to STRING
 ```
 a.toString();
-""+a
+a+""
+```
+
+## Operator abd operand
+### Caculator
+``` + - * / % ** ```
+> % = ผลเศษ
+> ** = squar
+```
+console.log(1+1);
+console.log(1*1);
+console.log(1/1);
+console.log(1-1);
+console.log(1%1);
+console.log(2**1);
+```
+### Boolean
+``` == != > < >= <= ```
+- how to use
+```
+let a = Array(1,2,3)l
+console.log(a[1]==a[2]);
+console.log(a[1]!=a[2]);
+console.log(a[1]>a[2]);
+console.log(a[1]<a[2]);
+console.log(a[1]>=a[2]);
+console.log(a[1]<=a[2]);
+let t=true;
+console.log(!true);
+```
+> Result
+```
+false
+true
+false
+true
+false
+true
+false
+```
+- and or not
+```
+and = &&
+or = ||
+not = !
+```
+- how to use
+```
+
 ```
