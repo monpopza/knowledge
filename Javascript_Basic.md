@@ -236,3 +236,87 @@ not = !
 ```
 
 ```
+### Add ans Redude Value
+```
+let a = 0;
+console.log(a);  
+console.log(a++); << Postfix
+console.log(a); 
+console.log("-------"); 
+a = 0;
+console.log(a); 
+console.log(++a); << Prefix
+console.log(a); 
+console.log("-------"); 
+a = 0;
+console.log(a); 
+console.log(a--);  << Postfix
+console.log(a); 
+console.log("-------"); 
+a = 0;
+console.log(a); 
+console.log(--a);  << Postfix
+console.log(a); 
+console.log("-------"); 
+```
+> Result
+```
+0 
+0  << Postfix เพิ่มนะแต่ไม่แสดง
+1
+-------
+0
+1  << Prefix เพิ่มและแสดงออกมาเลย
+1
+-------
+0
+0  << Postfix
+-1
+-------
+0
+-1  << Postfix
+-1
+-------
+```
+## Conpound Assignment
+```
+_______________________
+| += | x+=y | x = x+y |
+| -= | x-=y | x = x-y |
+| *= | x*=y | x = x*y |
+| /= | x/=y | x = x/y |
+| %= | x%=y | x = x%y |
+_______________________
+```
+## Priority Calculate
+``` 
+__________________________
+| 1 |    ( )    |   -    |
+| 2 |   ++  --  | L to R |
+| 3 |   * / %.  | L to R |
+| 4 |    + -    | L to R |
+| 5 | < <= > >= | L to R |
+| 6 |   == !=   | L to R |
+| 7 |     &&    | L to R |
+| 8 |     ||    | L to R |
+| 9 |  = += -=  | R to L |
+|   | *= /= %=  |        |
+__________________________
+```
+## IF Statement
+- Sequence
+ - if
+```
+if (quesion) {
+    true/false/++/--;
+};
+```
+ - Switch..Case
+```
+```
+- Condition
+```
+```
+- Loop
+```
+```
