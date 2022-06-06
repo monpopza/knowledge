@@ -307,16 +307,112 @@ __________________________
 - Sequence
  - if
 ```
-if (quesion) {
-    true/false/++/--;
-};
+if (quesion-true) {
+    whatever you want to do;
+}
+else{
+whatever you want to do other;
+}
+```
+> if else แบบย่อ
+```
+let ans = quesion-true ? whatever you want to do:whatever you want to do other;
+|       |    Quesion     |         IF           |            ELSE             |
+console.log(ans);
+```
+ - if  ไปเรื่อยๆถ้าไม่ได้ก็ไม่มี ผล if
+```
+if(){
+}if(){
+}
+```
+ - if ซ้อน if
+```
+if(quesion1-big){
+    if(quesion2-small){
+    aa
+    }else if(quesion3-small){
+    bb
+    }else (quesion4-small){
+    cc
+    }
+}else{
+not match;
+}
+```
+ - Example 
+```
+let a = 10;
+if (a>=10)}
+    console.log("You in 10");
+}else{
+    console.log("you not in 10 Please check your device");
+}
+<--------------------------------------------------------->
+
 ```
  - Switch..Case
+ > same if but one way only
 ```
+switch(quesion-check){
+    case value1:do1; 
+    break;
+    case value2:do2;
+    break
+    ...
+    case valueN:doN ;
+    defalut:dodefalutl
+}
 ```
 - Condition
 ```
 ```
 - Loop
+```break,continue```
+ - break
+Stop and skip to outloop!
 ```
+for(let i;i<=10:i++){
+    if(i==5)break;
+    condsole.log
+}
+console.log("END");
+```
+> stop at 4 and stop
+ - continue
+Stop and Renew same loop
+```
+for(let i;i<=10:i++){
+    if(i==5)continue;
+    condsole.log
+}
+console.log("END");
+```
+> skip at 5 and continue
+
+```while,For,Do..While```
+ - While
+```
+let a=0;
+while(a<=5){
+    do somthing;
+    if(a==4){break;}
+    a++;
+}
+
+```
+ - For loop 
+```
+for(let i=1;i<=10;i++){
+    True
+}
+```
+ - Do..While
+ทำรอบนึงแล้วเชค
+```
+let i=0;
+do{
+    console.log(i);
+    i++;
+}while(i<=5);
 ```
