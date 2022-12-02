@@ -1,3 +1,5 @@
+- [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+
 # JavaScript Basic 
 ## Source 
 - Lacture : https://www.youtube.com/watch?v=AbjY-ajKgSI&t=2931 (TH)
@@ -416,3 +418,6 @@ do{
     i++;
 }while(i<=5);
 ```
+
+- [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+
