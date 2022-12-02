@@ -114,6 +114,7 @@
 - Login with Remote 
   ```
   ssh username@ipaddree/domain
+  telnet username@ipaddress
   ```
 - logout
   ```
@@ -126,6 +127,7 @@
   whatis >> whatis package
   man >> man package
   help >> package help/--help/-h/-help
+  whereis >> whereis package
   ```
 
 # File Management
@@ -141,7 +143,8 @@
   mv
   rename
   find/locate
-  grep/less
+  grep >> search file
+  less/more >> list full screem with use arrow down and uo to select
   ```
 - owner file Command
   ```
@@ -156,7 +159,8 @@
   touch / mkfile
   cat
   tail
-  diff
+  diff >> compare ascii two file
+  
   ```
 - Compress and uncompress File Command
   ```
@@ -199,13 +203,14 @@
 # Utility
 - Date time and calendar 
   ``` 
+  clock >> set clock
   cal
   date
   time
   ```
 - What's system is?
   ```
-  whoami / who
+  whoami / who / whois
   uname -a 
   export
   ```
