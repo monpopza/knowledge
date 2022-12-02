@@ -1,3 +1,5 @@
+[Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+
 # Install Vue.js version 3.0
 - update detail all from [Link](https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md)
 ## Document 
@@ -48,4 +50,5 @@ npm install
 npm run dev
 ```
 
-## [Deploy to Firebase](https://github.com/monpopza/knowledge/blob/main/Firebase.md#deploy-to-firebase)
+[Go to Deploy to Firebase](https://github.com/monpopza/knowledge/blob/main/Firebase.md#deploy-to-firebase) | [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+
