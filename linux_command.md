@@ -15,12 +15,22 @@
 
 # Package and service Management
 - Install Update Upgrade and uninstall
+  - Debian Base 
   ```
   apt >> apt install | apt update | apt upgrade | apt remove/autoremove
-  brew >> brew install | brew update | brew upgrade | brew uninstall/remove
-  yum  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
   dpkg >> dpkg -i package.deb | dkg -r package.deb
+  ```
+  - Centos/RedHat
+  ```
+  yum  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
   rpm >> rpm -i package.rpm | rpm -e package.rpm
+  ``` 
+  - MacOS/OSX Base
+  ```
+  brew >> brew install | brew update | brew upgrade | brew uninstall/remove
+  ```
+  - Arch Linux Base
+  ```
   pacman >> pacman -S package | pacman -R/-Rs package
   ```
 - Package/Service Stop
@@ -201,5 +211,9 @@
   ```
 - Multiple in once
   ```
-  tux
+  tmux
+  ```
+- run in backgroud
+  ```
+  screen
   ```
