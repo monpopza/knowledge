@@ -1,3 +1,5 @@
+[Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+
 # Mikrotik CHR How to create vpn SSTP
 ## [Document](https://mum.mikrotik.com/presentations/ME16/presentation_3821_1476714592.pdf)
 ## Step to Step
@@ -107,4 +109,4 @@
 - INSTALL WITH TRUST ROOT CERTIFICATE 
   - LOCAL MACHIN/TRUSTED ROOT CERTIFICATE  
 
-
+[Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
