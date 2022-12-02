@@ -1,4 +1,5 @@
-- [Back to Knowledge Page](https://github.com/monpopza/knowledge/blob/main/README.md)
+- [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+
 # Update version 062022
 ## [Vue.JS Link](https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md)
 ## [Firebase Link](https://github.com/monpopza/knowledge/blob/main/Firebase.md)
@@ -177,6 +178,5 @@ Add This in index.html
 	<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 ```
-- [Back to Knowledge Page](https://github.com/monpopza/knowledge/blob/main/README.md)
 
-
+- [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
