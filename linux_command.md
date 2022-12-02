@@ -1,4 +1,4 @@
-- [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+[Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
 
 # Linux Command Type
 
@@ -223,4 +223,4 @@
   screen
   ```
 
-- [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+[Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
