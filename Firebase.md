@@ -1,4 +1,5 @@
-- [Back to Vue.JS Version 3](https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md)
+[Back to Vue.JS Version 3](https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md) | [Back to Knowledge](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+
 # Create Firebase and Setup a Firbase Project file
 ## [Docunment](https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md)
 
@@ -137,3 +138,5 @@ i  Writing gitignore file to .gitignore...
 ``` 
 firebase deploy --only hosting  
 ```
+
+[Back to Vue.JS Version 3](https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md) | [Back to Knowledge](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
