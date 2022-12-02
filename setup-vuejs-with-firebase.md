@@ -1,4 +1,4 @@
-- [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+[Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
 
 # Update version 062022
 ## [Vue.JS Link](https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md)
@@ -179,4 +179,4 @@ Add This in index.html
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 ```
 
-- [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+[Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
