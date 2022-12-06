@@ -53,7 +53,7 @@
   cronjob
   crontab
   ```
-  [crontab generator](https://crontab-generator.org)
+  > [crontab generator](https://crontab-generator.org)
   ![cronjob](https://www.guru99.com/images/1/011720_0741_CrontabinLi1.png)
 
 - Partition Management
@@ -204,12 +204,14 @@
 # Network Management
 - General
   ```
-  ipconfig = ifconfig
+  debian base > ipconfig = ifconfig
+  ip add / ip addr
   ```
+  > redhat use ipconfig > install net-tools
 - Firewall
   ```
-  ufw
-  iptable
+  debian base > ufw / iptable
+  redhat base > firewall-cmd
   ```
 - Stop Network
   ```
@@ -221,7 +223,7 @@
   ```
 - Network utility 
   ```
-  nslookup
+  nslookup (redhat install bind-utils)
   ping
   perf
   traceroute
