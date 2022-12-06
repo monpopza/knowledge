@@ -14,16 +14,18 @@
   ```
 
 # Package and service Management
-- Install Update Upgrade and uninstall
+- Install Update Upgrade and uninstall (SUDO)
   - Debian Base 
   ```
   apt >> apt install | apt update | apt upgrade | apt remove/autoremove
   dpkg >> dpkg -i package.deb | dkg -r package.deb
   ```
   - Centos/RedHat Base
+  > need to login in [Redhat](https://access.redhat.com/solutions/253273)
   ```
   yum  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
   rpm >> rpm -i package.rpm | rpm -e package.rpm
+  dnf >> dnf install | dnf update | dnf upgrade 
   ``` 
   - MacOS/OSX Base
   ```
