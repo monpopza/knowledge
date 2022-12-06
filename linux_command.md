@@ -26,6 +26,7 @@
   rpm >> rpm -i package.rpm | rpm -e package.rpm
   ``` 
   > need to login in [Redhat](https://access.redhat.com/solutions/253273)
+  > [more detail](https://www.interserver.net/tips/kb/install-dnf-in-rhel-centos-7/)
   - MacOS/OSX Base
   ```
   brew >> brew install | brew update | brew upgrade | brew uninstall/remove
