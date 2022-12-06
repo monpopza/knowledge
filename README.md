@@ -1,5 +1,8 @@
 [Home](https://github.com/monpopza)
 
+# Linux Knowledge
+- [linux command](https://github.com/monpopza/knowledge/blob/main/linux_command.md)
+
 # Javascript Knowkledge
 > 2020
 - [vueJS with firebase](https://github.com/monpopza/knowledge/blob/main/setup-vuejs-with-firebase.md)
@@ -7,7 +10,6 @@
 - [Init vueJS](https://github.com/monpopza/knowledge/blob/main/create%20Vue.js%203.md)
 - [Init Firebase](https://github.com/monpopza/knowledge/blob/main/Firebase.md)
 - [Lecture Javascript](https://github.com/monpopza/knowledge/blob/main/Javascript_Basic.md)
-- [linux command](https://github.com/monpopza/knowledge/blob/main/linux_command.md)
 
 # RouterOS Knowledge
 > 2022 
