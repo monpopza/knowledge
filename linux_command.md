@@ -5,8 +5,8 @@
 # Power Management
 - Shutdown and Restart
   ```
-  shutdown -h
-  shutdown -r
+  shutdown >> shutdown -h
+  restart  >> shutdown -r
   ```
 - add timer
   ```
@@ -20,7 +20,7 @@
   apt >> apt install | apt update | apt upgrade | apt remove/autoremove
   dpkg >> dpkg -i package.deb | dkg -r package.deb
   ```
-  - Centos/RedHat
+  - Centos/RedHat Base
   ```
   yum  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
   rpm >> rpm -i package.rpm | rpm -e package.rpm
@@ -51,7 +51,9 @@
 - Service Task Timer
   ```
   cronjob
+  crontab
   ```
+  [crontab generator](https://crontab-generator.org)
   ![cronjob](https://www.guru99.com/images/1/011720_0741_CrontabinLi1.png)
 
 - Partition Management
@@ -81,31 +83,32 @@
   ```
 - Add User 
   ```
-  userdd
+  userdd newuser
   ```
 - Remove User
   ```
-  userdel
+  userdel loduser
   ```
 - Modify User 
   ```
-  usermod
+  usermod modiuser
   ```
 - Change Password
   ```
   passwd
+  passwd user
   ```
 - Add Group
   ```
-  groupadd
+  groupadd namegroup
   ```
 - Remove Group
   ```
-  groupdel
+  groupdel namegroup
   ```
 - Modify Group
   ```
-  groupmod
+  groupmod namegroup
   ```
 - Login with Internal/Inside
   ```
@@ -131,24 +134,47 @@
   ```
 
 # File Management
-- folder and file command
+- for folder
   ```
+  ls directory/directory/directory
   ls
-  cd
-  mkdir / rmdir
-  rm
+  ls - Flash (list as human)
+  cd directory/directory/directory
+  mkdir / rmdir directory/directory/directory
+  rm filename.file
+  rm -rf directory
+  ```
+- show where am I in directory
+  ```
   pwd
-  ln / alias-knallias
-  cp
-  mv
-  rename
+  ```
+- Link File (shortcut file)
+  ```
+  ln filenamea directory/filenamea
+  alias-knallias
+  ```
+- copy file
+  ```
+  cp filea directory/filea
+  ```
+- move file
+  ```
+  mv filea directory filea
+  ```
+- change name file
+  ```
+  mv filea fileb
+  ```
+- etc for file and explorer
+  ```
   find/locate
   grep >> search file
   less/more >> list full screem with use arrow down and uo to select
   ```
 - owner file Command
   ```
-  chmod
+  chmod 777
+  chmod +x
   chown
   chgrp
   ```
