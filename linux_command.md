@@ -21,15 +21,16 @@
   dpkg >> dpkg -i package.deb | dkg -r package.deb
   ```
   - Centos/RedHat Base
-  > need to login in [Redhat](https://access.redhat.com/solutions/253273)
   ```
   yum/dnf  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
   rpm >> rpm -i package.rpm | rpm -e package.rpm
   ``` 
+  > need to login in [Redhat](https://access.redhat.com/solutions/253273)
   - MacOS/OSX Base
   ```
   brew >> brew install | brew update | brew upgrade | brew uninstall/remove
   ```
+  > need to setup [brew](https://brew.sh)
   - Arch Linux Base
   ```
   pacman >> pacman -S package | pacman -R/-Rs package
