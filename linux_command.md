@@ -23,9 +23,8 @@
   - Centos/RedHat Base
   > need to login in [Redhat](https://access.redhat.com/solutions/253273)
   ```
-  yum  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
+  yum/dnf  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
   rpm >> rpm -i package.rpm | rpm -e package.rpm
-  dnf >> dnf install | dnf update | dnf upgrade 
   ``` 
   - MacOS/OSX Base
   ```
