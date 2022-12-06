@@ -2,6 +2,13 @@
 
 # Linux Command Type
 
+# ExitProgram
+- use keyboard to exit program (process)
+ ```
+ exit > ctrl+c
+ force exit > Ctrl+Z
+ ```
+ 
 # Power Management
 - Shutdown and Restart
   ```
@@ -15,7 +22,7 @@
 
 # Package and service Management
 - Install Update Upgrade and uninstall (SUDO)
-  - Debian Base 
+  - Debian Base 🟠
   ```
   apt >> apt install | apt update | apt upgrade | apt remove/autoremove
   dpkg >> dpkg -i package.deb | dkg -r package.deb
@@ -182,41 +189,54 @@
   chown
   chgrp
   ```
-- Text Command
+- Text Editor
   ```
   nano
   vi
+  ```
+  > VI [moreinfo](https://saixiii.com/vi-linux-command/)
+  
+- New file (blank file)
+  ```
   touch / mkfile
+  ```
+- file detail (as text only-cli)
+  ```
   cat
   tail
+- compare file pair
+  ```
   diff >> compare ascii two file
   
   ```
 - Compress and uncompress File Command
   ```
-  tar
-  zip / unzip
+  tar 
+  zip <-> unzip
   xz
   gzip
+  gunzip
   ```
-- Download File
+- Download File (https)
   ```
-  wget
-  curl
+  wget 'urldownload'
+  curl 'urldownload'
   ```
 
 # Network Management
-- General
+- Show IP Address and Interface
   ```
-  debian base > ipconfig = ifconfig
+  debian base 🟠 > ipconfig = ifconfig
   ip add / ip addr
   ```
-  > redhat use ipconfig > install net-tools
+  > 🔴redhat use ipconfig > install net-tools
+
 - Firewall
   ```
-  debian base > ufw / iptable
-  redhat base > firewall-cmd
+  debian base 🟠 > ufw / iptable
+  redhat base 🔴 > firewall-cmd
   ```
+  
 - Stop Network
   ```
   ifdown
@@ -227,7 +247,7 @@
   ```
 - Network utility 
   ```
-  nslookup (redhat install bind-utils)
+  nslookup (redhat🔴 install bind-utils)
   ping
   perf
   traceroute
