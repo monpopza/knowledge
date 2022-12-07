@@ -18,7 +18,7 @@
  force exit > Ctrl+Z
  ```
  -------
-# Power Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
+# Power Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - Shutdown and Restart
   ```
   shutdown >> shutdown -h
@@ -29,7 +29,7 @@
   add -t second >> shutdown -h -t 0 | shutdown -t now
   ```
 -------
-# Package and service Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
+# Package and service Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - Install Update Upgrade and uninstall (SUDO)
   - Debian Base 🟠
   ```
@@ -84,7 +84,7 @@
   dd
   ```
 -------
-# User and group Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
+# User and group Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - Login to Super User
   ```
   su
@@ -147,7 +147,7 @@
   logout
   ```
 -------
-# Help/Manual [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
+# Help/Manual [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - F1 Package
   ```
   whatis >> whatis package
@@ -156,7 +156,7 @@
   whereis >> whereis package
   ```
 -------
-# File Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
+# File Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - for folder
   ```
   ls directory/directory/directory
@@ -238,7 +238,7 @@
   ```
 
 -------
-# Network Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
+# Network Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - Show IP Address and Interface
   ```
   debian base 🟠 > ipconfig = ifconfig
@@ -293,7 +293,7 @@
   ```
   
 -------
-# check version os and hardware [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
+# check version os and hardware [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - show version os and name os
   ```
   for i in $(ls /etc/*release); do echo ===$i===; cat $i; done
