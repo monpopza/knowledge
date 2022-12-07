@@ -11,7 +11,7 @@
 - [Utility ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#utility)
 - [HardwareInfo ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#check-version-os-and-hardware)
 -------
-# Exit Program[↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
+# Exit Program[↑](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - use keyboard to exit program (process)
  ```
  exit > ctrl+c
