@@ -1,14 +1,15 @@
 [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
-
+-------
 # Linux Command Type
 
+-------
 # ExitProgram
 - use keyboard to exit program (process)
  ```
  exit > ctrl+c
  force exit > Ctrl+Z
  ```
- 
+ -------
 # Power Management
 - Shutdown and Restart
   ```
@@ -19,7 +20,7 @@
   ```
   add -t second >> shutdown -h -t 0 | shutdown -t now
   ```
-
+-------
 # Package and service Management
 - Install Update Upgrade and uninstall (SUDO)
   - Debian Base 🟠
@@ -74,6 +75,7 @@
   mount
   dd
   ```
+-------
 # User and group Management
 - Login to Super User
   ```
@@ -136,6 +138,7 @@
   exit
   logout
   ```
+-------
 # Help/Manual
 - F1 Package
   ```
@@ -144,7 +147,7 @@
   help >> package help/--help/-h/-help
   whereis >> whereis package
   ```
-
+-------
 # File Management
 - for folder
   ```
@@ -210,7 +213,7 @@
   diff >> compare ascii two file
   
   ```
-- Compress and uncompress File Command
+- Compress and uncompress File Command 
   ```
   tar 
   zip <-> unzip
@@ -218,12 +221,15 @@
   gzip
   gunzip
   ```
+  > (somepackage need to install)
+
 - Download File (https)
   ```
   wget 'urldownload'
   curl 'urldownload'
   ```
 
+-------
 # Network Management
 - Show IP Address and Interface
   ```
@@ -253,6 +259,8 @@
   perf
   traceroute
   ```
+  
+ -------
 # Utility
 - Date time and calendar 
   ``` 
@@ -275,5 +283,33 @@
   ```
   screen
   ```
+  
+-------
+# check version os and hardware
+- show hardware (overview)
+  ```
+  lshw
+  lshw -short
+  ```
+- show pcie
+  ```
+  lspci
+  lspci -vvv
+  lspci -tree
+  ```
+- show cpu
+  ```
+  lscpu
+  ```
+- show block (disk tree/storage)
+  ```
+  lsblk
+  lsblk --all
+  ```
+- show usb
+  ```
+  lsusb
+  ```
 
+-------
 [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
