@@ -1,4 +1,4 @@
-[⬅️](https://github.com/monpopza/knowledge) | [🏠](https://github.com/monpopza)
+[⬅️](https://github.com/monpopza/knowledge) | [🏠](https://github.com/monpopza <br/>
 -------
 # Linux Command
 - [Exit! ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#exit-program%EF%B8%8F)
@@ -235,7 +235,7 @@
   diff 1 2
   ```
 - Compress and uncompress File Command 
-  - tar 
+  - tar [more](https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/)<br/> 
   [Compress]
   ```
   [one1] tar -czvf file.tar.gz /path/to/dir-file
@@ -246,8 +246,8 @@
   tar -zxvf myfile.tar.gz
   tar -xzvf myfile.tar.gz -C /path/to/need
   ```
-  [more](https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/)
-  - zip/unzip
+  
+  - zip/unzip [more](https://www.geeksforgeeks.org/zip-command-in-linux-with-examples/) <br/>
   [Compress]
   ```
   zip file.zip file_list
@@ -258,8 +258,8 @@
   ```
   unzip file.zip
   ```
-  [more](https://www.geeksforgeeks.org/zip-command-in-linux-with-examples/)
-  - xz
+  
+  - xz <br/>
   [Compress]
   ```
   xz file
@@ -277,7 +277,7 @@
   xz -l file.xz
   ```
   [more](https://linuxhint.com/xz_compression_tutorial/)
-  - gzip/gunzip
+  - gzip/gunzip <br/>
   [Compress]
   ```
   gzip file   [*️⃣file will be removed]
