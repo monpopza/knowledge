@@ -1,4 +1,4 @@
-[Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+[⬅️](https://github.com/monpopza/knowledge) | [🏠](https://github.com/monpopza)
 -------
 # Linux Command
 - [Exit! ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#exit-program%EF%B8%8F)
@@ -324,4 +324,4 @@
   ```
 
 -------
-[Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
+[⬅️](https://github.com/monpopza/knowledge) | [🏠](https://github.com/monpopza)
