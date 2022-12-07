@@ -1,15 +1,15 @@
 [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
 -------
 # Linux Command Type
-- [Exit!](# Exit program)
-- [Power](# Power Management)
-- [Package and Service](# Package and service Management)
-- [User&Group](# User and group Management
-- [Manual](# Help/Manual)
-- [File](# File Management)
-- [Network](#Network Management)
-- [Utility](#Utility)
-- [HardwareInfo](#check version os and hardware)
+- [Exit!](https://github.com/monpopza/knowledge/blob/main/linux_command.md#exit-program)
+- [Power](https://github.com/monpopza/knowledge/blob/main/linux_command.md#power-management)
+- [Package and Service](https://github.com/monpopza/knowledge/blob/main/linux_command.md#package-and-service-management)
+- [User&Group](https://github.com/monpopza/knowledge/blob/main/linux_command.md#user-and-group-management)
+- [Manual](https://github.com/monpopza/knowledge/blob/main/linux_command.md#helpmanual)
+- [File](https://github.com/monpopza/knowledge/blob/main/linux_command.md#file-Management)
+- [Network](https://github.com/monpopza/knowledge/blob/main/linux_command.md#network-management)
+- [Utility](https://github.com/monpopza/knowledge/blob/main/linux_command.md#utility)
+- [HardwareInfo](https://github.com/monpopza/knowledge/blob/main/linux_command.md#check-version-os-and-hardware)
 -------
 # ExitProgram
 - use keyboard to exit program (process)
