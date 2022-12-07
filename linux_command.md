@@ -1,6 +1,6 @@
 [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
 -------
-# Linux Command Type
+# Linux Command
 - [Exit!](https://github.com/monpopza/knowledge/blob/main/linux_command.md#exit-program)
 - [Power](https://github.com/monpopza/knowledge/blob/main/linux_command.md#power-management)
 - [Package and Service](https://github.com/monpopza/knowledge/blob/main/linux_command.md#package-and-service-management)
@@ -11,14 +11,14 @@
 - [Utility](https://github.com/monpopza/knowledge/blob/main/linux_command.md#utility)
 - [HardwareInfo](https://github.com/monpopza/knowledge/blob/main/linux_command.md#check-version-os-and-hardware)
 -------
-# Exit Program
+# Exit Program [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - use keyboard to exit program (process)
  ```
  exit > ctrl+c
  force exit > Ctrl+Z
  ```
  -------
-# Power Management
+# Power Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
 - Shutdown and Restart
   ```
   shutdown >> shutdown -h
@@ -29,7 +29,7 @@
   add -t second >> shutdown -h -t 0 | shutdown -t now
   ```
 -------
-# Package and service Management
+# Package and service Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
 - Install Update Upgrade and uninstall (SUDO)
   - Debian Base 🟠
   ```
@@ -84,7 +84,7 @@
   dd
   ```
 -------
-# User and group Management
+# User and group Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
 - Login to Super User
   ```
   su
@@ -147,7 +147,7 @@
   logout
   ```
 -------
-# Help/Manual
+# Help/Manual [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
 - F1 Package
   ```
   whatis >> whatis package
@@ -156,7 +156,7 @@
   whereis >> whereis package
   ```
 -------
-# File Management
+# File Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
 - for folder
   ```
   ls directory/directory/directory
@@ -238,7 +238,7 @@
   ```
 
 -------
-# Network Management
+# Network Management [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
 - Show IP Address and Interface
   ```
   debian base 🟠 > ipconfig = ifconfig
@@ -293,7 +293,7 @@
   ```
   
 -------
-# check version os and hardware
+# check version os and hardware [↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command-type)
 - show version os and name os
   ```
   for i in $(ls /etc/*release); do echo ===$i===; cat $i; done
