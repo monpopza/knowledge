@@ -235,12 +235,62 @@
   diff 1 2
   ```
 - Compress and uncompress File Command 
+  - tar 
+  [Compress]
   ```
-  tar 
-  zip <-> unzip
-  xz
-  gzip
-  gunzip
+  [one1] tar -czvf file.tar.gz /path/to/dir-file
+  [mult] tar -czvf allfile.tar.gz /pathto/dir1 pathto/dir2 /file3
+  ```
+  [Decompress]
+  ```
+  tar -zxvf myfile.tar.gz
+  tar -xzvf myfile.tar.gz -C /path/to/need
+  ```
+  [more](https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/)
+  - zip/unzip
+  [Compress]
+  ```
+  zip file.zip file_list
+  zip file.zip folder
+  zip file.zip list file to zip
+  ```
+  [Decompress]
+  ```
+  unzip file.zip
+  ```
+  [more](https://www.geeksforgeeks.org/zip-command-in-linux-with-examples/)
+  - xz
+  [Compress]
+  ```
+  xz file
+  xz 1 2 3 4 5 6
+  xz -k file_keep_original
+  xz -c 1 2 3 4 5 6 > keepfile.xz
+  ```
+  [Decompress]
+  ```
+  xz -d file.xz
+  unxz file.xz
+  ```
+  [info]
+  ```
+  xz -l file.xz
+  ```
+  [more](https://linuxhint.com/xz_compression_tutorial/)
+  - gzip/gunzip
+  [Compress]
+  ```
+  gzip file   [*️⃣file will be removed]
+  gzip -c file > file.gz
+  ```
+  [Decompress]
+  ```
+  gzip -d file.gz
+  gunzip file.gz [*️⃣file will be removed]
+  ```
+  [List in gz]
+  ```
+  gzip -cd file.gz | wc -c
   ```
   > (somepackage need to install)
 
