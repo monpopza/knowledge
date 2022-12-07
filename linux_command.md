@@ -2,14 +2,14 @@
 -------
 # Linux Command
 - [Exit! ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#exit-program)
-- [→Power ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#power-management)
-- [→Package and Service ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#package-and-service-management)
-- [→User&Group ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#user-and-group-management)
-- [→Manual ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#helpmanual)
-- [→File ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#file-Management)
-- [→Network ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#network-management)
-- [→Utility ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#utility)
-- [→HardwareInfo ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#check-version-os-and-hardware)
+- [Power ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#power-management)
+- [Package and Service ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#package-and-service-management)
+- [User&Group ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#user-and-group-management)
+- [Manual ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#helpmanual)
+- [File ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#file-Management)
+- [Network ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#network-management)
+- [Utility ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#utility)
+- [HardwareInfo ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#check-version-os-and-hardware)
 -------
 # Exit Program[↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - use keyboard to exit program (process)
