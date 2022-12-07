@@ -1,7 +1,15 @@
 [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
 -------
 # Linux Command Type
-
+- [Exit!](# Exit program)
+- [Power](# Power Management)
+- [Package and Service](# Package and service Management)
+- [User&Group](# User and group Management
+- [Manual](# Help/Manual)
+- [File](# File Management)
+- [Network](#Network Management)
+- [Utility](#Utility)
+- [HardwareInfo](#check version os and hardware)
 -------
 # ExitProgram
 - use keyboard to exit program (process)
@@ -198,7 +206,7 @@
   nano
   vi
   ```
-  > VI [moreinfo](https://saixiii.com/vi-linux-command/)
+  > VI:[moreinfo](https://saixiii.com/vi-linux-command/)
   
 - New file (blank file)
   ```
@@ -286,6 +294,10 @@
   
 -------
 # check version os and hardware
+- show version os and name os
+  ```
+  for i in $(ls /etc/*release); do echo ===$i===; cat $i; done
+  ```
 - show hardware (overview)
   ```
   lshw
