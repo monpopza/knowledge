@@ -36,19 +36,17 @@
   apt >> apt install | apt update | apt upgrade | apt remove/autoremove
   dpkg >> dpkg -i package.deb | dkg -r package.deb
   ```
-  - Centos/RedHat Base
-  > [more detail](https://www.interserver.net/tips/kb/install-dnf-in-rhel-centos-7/)
+  - Centos/RedHat Base [more](https://www.interserver.net/tips/kb/install-dnf-in-rhel-centos-7/)
   ```
   yum/dnf  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
   rpm >> rpm -i package.rpm | rpm -e package.rpm
   ``` 
-  > need to login in [Redhat](https://access.redhat.com/solutions/253273)
+  > redhat need to login in[?](https://access.redhat.com/solutions/253273)
   
-  - MacOS/OSX Base
+  - MacOS/OSX Base [more](https://brew.sh)
   ```
   brew >> brew install | brew update | brew upgrade | brew uninstall/remove
   ```
-  > need to setup [brew](https://brew.sh)
   - Arch Linux Base
   ```
   pacman >> pacman -S package | pacman -R/-Rs package
@@ -74,6 +72,7 @@
   crontab
   ```
   > [crontab generator](https://crontab-generator.org)
+  <br/>
   ![cronjob](https://www.guru99.com/images/1/011720_0741_CrontabinLi1.png)
 
 - Partition Management
@@ -215,7 +214,7 @@
   nano
   vi
   ```
-  > VI:[moreinfo](https://saixiii.com/vi-linux-command/)
+  > [vi](https://saixiii.com/vi-linux-command/)
   
 - Make new file (blank file)
   ```
