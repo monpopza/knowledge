@@ -94,7 +94,8 @@
   ```
 - Add User 
   ```
-  userdd newuser
+  useradd newuser
+  adduser newuser
   ```
 - Remove User
   ```
