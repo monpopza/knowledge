@@ -279,6 +279,7 @@
   ping
   perf
   traceroute
+  tracepath (redhat🔴)
   ```
   
  -------
