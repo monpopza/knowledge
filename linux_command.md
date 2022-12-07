@@ -157,17 +157,26 @@
   ```
 -------
 # File Management[⬆️](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
-- for folder
+- go to your folder
+  ```
+  cd directory/directory/directory
+  ```
+- list all in folder 
   ```
   ls directory/directory/directory
   ls
   ls - Flash (list as human)
-  cd directory/directory/directory
-  mkdir / rmdir directory/directory/directory
-  rm filename.file
+  ```
+- remove your folder
+  ```
+  rmdir directory
   rm -rf directory
   ```
-- show where am I in directory
+- make your folder
+  ```
+  mkdir newfolder
+  ```
+- where am I in directory
   ```
   pwd
   ```
@@ -208,18 +217,22 @@
   ```
   > VI:[moreinfo](https://saixiii.com/vi-linux-command/)
   
-- New file (blank file)
+- Make new file (blank file)
   ```
   touch / mkfile
   ```
-- file detail (as text only-cli)
+- remove file 
+  ```
+  rm filename.file
+  ```
+- show file detail as text in cmd/cli
   ```
   cat
   tail
-- compare file pair
+- compare file pair as text
   ```
   diff >> compare ascii two file
-  
+  diff 1 2
   ```
 - Compress and uncompress File Command 
   ```
