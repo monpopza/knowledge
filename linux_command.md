@@ -1,15 +1,15 @@
 [Back](https://github.com/monpopza/knowledge) | [Home](https://github.com/monpopza)
 -------
 # Linux Command
-- [Exit! ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#exit-program)
-- [Power ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#power-management)
-- [Package and Service ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#package-and-service-management)
-- [User&Group ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#user-and-group-management)
-- [Manual ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#helpmanual)
-- [File ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#file-Management)
-- [Network ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#network-management)
-- [Utility ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#utility)
-- [HardwareInfo ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#check-version-os-and-hardware)
+- [Exit! ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#exit-program%EF%B8%8F)
+- [Power ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#power-management%EF%B8%8F)
+- [Package and Service ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#package-and-service-management%EF%B8%8F)
+- [User&Group ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#user-and-group-management%EF%B8%8F)
+- [Manual ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#helpmanual%EF%B8%8F)
+- [File ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#file-Management%EF%B8%8F)
+- [Network ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#network-management%EF%B8%8F)
+- [Utility ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#utility%EF%B8%8F)
+- [HardwareInfo ↗](https://github.com/monpopza/knowledge/blob/main/linux_command.md#check-version-os-and-hardware%EF%B8%8F)
 -------
 # Exit Program[⬆️](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - use keyboard to exit program (process)
@@ -269,7 +269,7 @@
   ```
   
  -------
-# Utility
+# Utility[⬆️](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - Date time and calendar 
   ``` 
   clock >> set clock
