@@ -24,55 +24,61 @@
   shutdown >> shutdown -h
   restart  >> shutdown -r
   ```
-- add timer
+- add timer (sec)
   ```
-  add -t second >> shutdown -h -t 0 | shutdown -t now
+  shutdown -h -t 0
+  shutdown -t now
   ```
 -------
 # Package and service Management[⬆️](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
+- Administrator run
+  ```
+  sudo package
+  sudo apt/dnf/yum
+  ```
 - Install Update Upgrade and uninstall (SUDO)
   - Debian Base 🟠
-  ```
-  apt >> apt install | apt update | apt upgrade | apt remove/autoremove
-  dpkg >> dpkg -i package.deb | dkg -r package.deb
-  ```
-  - Centos/RedHat Base [more](https://www.interserver.net/tips/kb/install-dnf-in-rhel-centos-7/)
-  ```
-  yum/dnf  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
-  rpm >> rpm -i package.rpm | rpm -e package.rpm
-  ``` 
-  > redhat need to login in[?](https://access.redhat.com/solutions/253273)
+    ```
+    apt >> apt install | apt update | apt upgrade | apt remove/autoremove
+    dpkg >> dpkg -i package.deb | dkg -r package.deb
+    ```
+  - Centos/RedHat Base [?](https://www.interserver.net/tips/kb/install-dnf-in-rhel-centos-7/)
+    ```
+    yum/dnf  >> yum install | yum update | yum upgrade | yum remove/erase | yum localinstall package.rpm
+    rpm >> rpm -i package.rpm | rpm -e package.rpm
+    ``` 
+    > redhat need to login in [?](https://access.redhat.com/solutions/253273)
   
-  - MacOS/OSX Base [more](https://brew.sh)
-  ```
-  brew >> brew install | brew update | brew upgrade | brew uninstall/remove
-  ```
+  - MacOS [?](https://brew.sh)
+    ```
+    brew >> brew install | brew update | brew upgrade | brew uninstall/remove
+    ```
   - Arch Linux Base
-  ```
-  pacman >> pacman -S package | pacman -R/-Rs package
-  ```
+    ```
+    pacman >> pacman -S package | pacman -R/-Rs package
+    ```
 - Package/Service Stop
   ```
   kill/killall
   pkill
   ```
-- Taskmanager
+- Task Manager
+> some package need to install
   ```
   top
   htop
+  btop
   ```
 - Service command
   ```
   service >> sudo service start package / sudo service stop backage
   systemctl >> sudo systemctl | grep running
   ```
-- Service Task Timer
+- Service Task Timer[?](https://crontab-generator.org)
   ```
   cronjob
   crontab
   ```
-  > [crontab generator](https://crontab-generator.org)
-  <br/>
   ![cronjob](https://www.guru99.com/images/1/011720_0741_CrontabinLi1.png)
 
 - Partition Management
@@ -147,7 +153,7 @@
   ```
 -------
 # Help/Manual[⬆️](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
-- F1 Package
+- FAQ. Help. Manual. Location.
   ```
   whatis >> whatis package
   man >> man package
@@ -156,15 +162,16 @@
   ```
 -------
 # File Management[⬆️](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
-- go to your folder
+- go to folder in folder in folder
   ```
   cd directory/directory/directory
   ```
-- list all in folder 
+- list all **item** in folder 
   ```
   ls directory/directory/directory
   ls
-  ls - Flash (list as human)
+  ls -la  =  ll (need to install)
+  ls - Flash (easy to read)
   ```
 - remove your folder
   ```
@@ -210,12 +217,16 @@
   chgrp
   ```
 - Text Editor
-  ```
-  nano
-  vi
-  ```
-  > [vi](https://saixiii.com/vi-linux-command/)
-  
+  - nano[?](https://www.geeksforgeeks.org/nano-text-editor-in-linux/)
+  - vi[?](https://saixiii.com/vi-linux-command/)
+    ```
+    nano
+    nano namefile
+    vi
+    vi namefile
+    vim
+    vim namefile
+    ```
 - Make new file (blank file)
   ```
   touch / mkfile
@@ -234,64 +245,67 @@
   diff 1 2
   ```
 - Compress and uncompress File Command 
-  - tar [more](https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/)<br/> 
-  [Compress]
-  ```
-  [one1] tar -czvf file.tar.gz /path/to/dir-file
-  [mult] tar -czvf allfile.tar.gz /pathto/dir1 pathto/dir2 /file3
-  ```
-  [Decompress]
-  ```
-  tar -zxvf myfile.tar.gz
-  tar -xzvf myfile.tar.gz -C /path/to/need
-  ```
+> (somepackage need to install)v
+  - tar [more](https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/)<br/>
+   
+    [Compress]
+    ```
+    [one1] tar -czvf file.tar.gz /path/to/dir-file
+    [mult] tar -czvf allfile.tar.gz /pathto/dir1 pathto/dir2 /file3
+    ```
+    [Decompress]
+    ```
+    tar -zxvf myfile.tar.gz
+    tar -xzvf myfile.tar.gz -C /path/to/need
+    ```
   
   - zip/unzip [more](https://www.geeksforgeeks.org/zip-command-in-linux-with-examples/) <br/>
-  [Compress]
-  ```
-  zip file.zip file_list
-  zip file.zip folder
-  zip file.zip list file to zip
-  ```
-  [Decompress]
-  ```
-  unzip file.zip
-  ```
   
-  - xz <br/>
-  [Compress]
-  ```
-  xz file
-  xz 1 2 3 4 5 6
-  xz -k file_keep_original
-  xz -c 1 2 3 4 5 6 > keepfile.xz
-  ```
-  [Decompress]
-  ```
-  xz -d file.xz
-  unxz file.xz
-  ```
-  [info]
-  ```
-  xz -l file.xz
-  ```
-  [more](https://linuxhint.com/xz_compression_tutorial/)
+    [Compress]
+    ```
+    zip file.zip file_list
+    zip file.zip folder
+    zip file.zip list file to zip
+    ```
+    [Decompress]
+    ```
+    unzip file.zip
+    ```
+  
+  - xz[?](https://linuxhint.com/xz_compression_tutorial/) <br/>
+  
+    [Compress]
+    ```
+    xz file
+    xz 1 2 3 4 5 6
+    xz -k file_keep_original
+    xz -c 1 2 3 4 5 6 > keepfile.xz
+    ```
+    [Decompress]
+    ```
+    xz -d file.xz
+    unxz file.xz
+    ```
+    [info]
+    ```
+    xz -l file.xz
+    ```
   - gzip/gunzip <br/>
-  [Compress]
-  ```
-  gzip file   [*️⃣file will be removed]
-  gzip -c file > file.gz
-  ```
-  [Decompress]
-  ```
-  gzip -d file.gz
-  gunzip file.gz [*️⃣file will be removed]
-  ```
-  [List in gz]
-  ```
-  gzip -cd file.gz | wc -c
-  ```
-  > (somepackage need to install)
+  
+    [Compress]
+    ```
+    gzip file   [*️⃣file will be removed]
+    gzip -c file > file.gz
+    ```
+    [Decompress]
+    ```
+    gzip -d file.gz
+    gunzip file.gz [*️⃣file will be removed]
+    ```
+    [List in gz]
+    ```
+    gzip -cd file.gz | wc -c
+    ```
 
 - Download File (https)
   ```
@@ -354,7 +368,11 @@
   ```
   screen
   ```
-  
+- Browser 
+> need to install 
+  ```
+  w3m 'url'
+  ```
 -------
 # check version os and hardware[⬆️](https://github.com/monpopza/knowledge/blob/main/linux_command.md#linux-command)
 - show version os and name os
