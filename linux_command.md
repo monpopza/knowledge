@@ -63,12 +63,12 @@
     pkill
     ```
   - Task Manager
-  > some package need to install
     ```
     top
     htop
     btop
     ```
+    > some package need to install
   - Service command
     ```
     service >> sudo service start package / sudo service stop backage
@@ -219,37 +219,36 @@
   - Text Editor
     - nano[?](https://www.geeksforgeeks.org/nano-text-editor-in-linux/)
     - vi[?](https://saixiii.com/vi-linux-command/)
-    ```
-    nano
-    nano namefile
-    vi
-    vi namefile
-    vim
-    vim namefile
-    ```
-  - Make new file (blank file)
-    ```
-    touch / mkfile
-    ```
-  - remove file 
-    ```
-    rm filename.file
-    ```
-  - show file detail as text in cmd/cli
-    ```
-    cat
-    tail
-    ```
-  - compare file pair as text
-    ```
-    diff >> compare ascii two file
-    diff 1 2
-    ```
+      ```
+      nano
+      nano namefile
+      vi
+      vi namefile
+      vim
+      vim namefile
+      ```
+    - Make new file (blank file)
+      ```
+      touch / mkfile
+      ```
+    - remove file 
+      ```
+      rm filename.file
+      ```
+    - show file detail as text in cmd/cli
+      ```
+      cat
+      tail
+      ```
+    - compare file pair as text
+      ```
+      diff >> compare ascii two file
+      diff 1 2
+      ```
   - Compress and uncompress File Command 
-  > (somepackage need to install)v
+  /*(somepackage need to install)*/
   - tar [more](https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/)<br/>
-   
-     [Compress]
+    [Compress]
     ```
     [one1] tar -czvf file.tar.gz /path/to/dir-file
     [mult] tar -czvf allfile.tar.gz /pathto/dir1 pathto/dir2 /file3
@@ -261,8 +260,7 @@
     ```
   
   - zip/unzip [more](https://www.geeksforgeeks.org/zip-command-in-linux-with-examples/) <br/>
-  
-      [Compress]
+    [Compress]
     ```
     zip file.zip file_list
     zip file.zip folder
@@ -274,7 +272,6 @@
     ```
   
   - xz[?](https://linuxhint.com/xz_compression_tutorial/) <br/>
-  
     [Compress]
     ```
     xz file
